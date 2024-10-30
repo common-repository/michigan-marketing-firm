@@ -1,0 +1,46 @@
+/* css for the mimf settings page */
+.mi-title {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: black;
+  display: none;
+}
+
+.mi-opt-form {
+  background-color: white;
+  height: 100%;
+  width: 97%;
+  margin: auto;
+  /* padding: .25rem .25rem 1rem 1rem; */
+  text-align: center;
+}
+
+.mimf-credits {
+ font-size: .6rem;
+}
+
+img.mi-opt-img {
+  width: 206px !important;
+}
+.inner-opt-mi {
+  margin: auto;
+  width: 50%;
+}
+
+.mimf-toggle .form-table td {
+  float: right;
+}
+
+#wpbody-content {
+  padding-top: 2rem;
+}
+
+/* Hides divi parent theme from options */
+.wp-admin [data-slug="Divi"] {
+  display: none;
+}
+
+.wp-admin .parent-theme {
+  display: none;
+}
